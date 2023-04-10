@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "shareddatastruct.h": "c",
+        "acc_prof.h": "c",
+        "buzzer.h": "c",
+        "tools.h": "c"
+    }
+}
