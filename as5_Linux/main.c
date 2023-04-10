@@ -9,7 +9,9 @@
 int main(void) {
 
     // Configure all the required pins
-    runCommand("./configurePins.sh");
+    runCommand("config-pin p8_11 pruout");
+    runCommand("config-pin p8_15 pruin");
+    runCommand("config-pin p8_16 pruin");
 
     // Get access to shared memory for my uses
     volatile void *pPruBase = getPruMmapAddr();
